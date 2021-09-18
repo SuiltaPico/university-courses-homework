@@ -1,2 +1,2 @@
 # university-courses-homework
-大学作业
+这里是大学期间的所有实验作业。
