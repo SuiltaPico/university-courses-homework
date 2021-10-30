@@ -5,7 +5,7 @@
 #include <ctime>
 #include <cstdlib>
 
-// 构建最小堆的函数，由构建最大堆的函数简单推理出来的
+// 构建最小堆的函数，由构建最大堆的函数简单推理出来的。详解见堆排序的程序。
 bool buildMinimumHeap(int *arr, size_t arr_size)
 {
     if (arr_size < 2)
