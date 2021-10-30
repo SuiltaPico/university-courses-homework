@@ -1,3 +1,5 @@
+# 用堆求最大的k位数
+## 代码展示
 ```cpp
 #include <cstdio>
 #include <ctime>
@@ -101,7 +103,7 @@ int main()
     IntArray result = getTopK(arr, size, k);
 
     // 输出前k位数
-    printf("Top%zu: ", result.size);
+    printf("Top%zu:  ", result.size);
     for (size_t i = 0; i < result.size; i++)
         printf("%4d ", result.arr[i]);
     printf("\n");
@@ -110,4 +112,11 @@ int main()
     delete[] arr;
     return 0;
 }
+```
+
+## 运行结果
+```cmd
+> d:\classTask\算法训练\堆\tempCodeRunnerFile
+array:    2    5    1    8    5    5    7    7    9    4 
+Top6:     9    8    7    7    5    5 
 ```
