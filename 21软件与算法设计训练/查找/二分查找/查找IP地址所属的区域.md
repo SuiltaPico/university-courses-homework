@@ -1,5 +1,6 @@
 # 查找IP地址所属的区域
 ## 代码展示
+[在线编译](https://gcc.godbolt.org/z/K487vbdz8)
 ### `main.cpp`
 ```cpp
 #include <iostream>

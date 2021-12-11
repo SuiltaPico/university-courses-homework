@@ -1,4 +1,5 @@
 # 用堆求最大的k位数
+[在线编译](https://gcc.godbolt.org/z/37c7zacqa)
 ## 代码展示
 ```cpp
 #include <cstdio>

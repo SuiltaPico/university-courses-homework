@@ -1,5 +1,6 @@
 # 在O(n)的时间复杂度下求得无序数组经排序后的第K位数据
 这里使用了快速选择算法。
+[在线编译](https://gcc.godbolt.org/z/sj4doK49o)
 ## 代码展示
 ```cpp
 #include <cstdio>
